@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+
+    <link rel="stylesheet" href="./css/estilo.css">
+
+</head>
+
+<body>
+
+    <form action="" method="post" class="form-login">
+        <div class="display">
+
+            <h>Calculadora con js</h>
+
+            <p>
+                <label class="label1">Numero 1 </label> <input type="number" name="v1" id="val1" placeholder="valor 1"
+                    onblur="captura1()" />
+
+            </p>
+            <p>
+
+                <label class="label1">Numero 2 </label><input type="number" name="v2" id="v2" placeholder="valor 2"
+                    onblur="captura2()" />
+
+            </p>
+        </div>
+
+        <div id="caja">
+            <input class="operacion" type="button" value="+" onclick="sum()" />
+            <input class="operacion" type="button" value="-" onclick="resta()" />
+            <input class="operacion" type="button" value="*" onclick="mul()" />
+            <input class="operacion" type="button" value="/" onclick="div()" />
+        </div>
+        <br>
+        <input type="button" value="CA" class="clearCA" onclick="limpiarLista()" />
+
+        <input type="button" value="DEL" id="clearDEL" />
+
+    </form>
+
+    <ul id="resultado">
+    </ul>
+    <script src="./JS/funciones.js"></script>
+
+</body>
+
+</html>

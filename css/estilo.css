@@ -1,0 +1,107 @@
+* {
+  margin: 10;
+  padding: 10;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font: bold;
+  background-blend-mode: luminosity;
+  background-color: rgb(21, 50, 58);
+  text-align: center;
+}
+
+h,
+label {
+  color: rgb(246, 246, 246);
+}
+input {
+  background-color: rgb(247, 246, 240);
+  border: 2px solid #000000;
+  height: 23px;
+  width: 60px;
+}
+.operacion {
+  height: 23px;
+  width: 35px;
+}
+
+.form-login {
+  height: 49px;
+  text-align: center;
+  border-bottom: 0px solid;
+}
+
+.form-login {
+  border-radius: 9%;
+
+  width: 230px;
+  height: 140px;
+
+  background: #051e34;
+  margin: auto;
+  margin-top: 118px;
+  box-shadow: 55px 90px 960px rgb(9, 9, 91);
+  padding: 60px 80px;
+  border: 4px solid #18646d;
+  color: rgb(43, 11, 11);
+}
+.form-login h5 {
+  margin: 0;
+  text-align: center;
+  /* height: 0px;
+    margin-bottom: 30px; */
+  border-bottom: 1px solid;
+  font-size: 30px;
+}
+#resultado {
+  color: rgb(181, 181, 181);
+  text-shadow: 0 0 50px #008fcc;
+}
+.label1 {
+  position: static;
+  left: 42%;
+  padding: 0.4%;
+  color: rgb(164, 182, 9);
+}
+#clearDEL {
+  width: 80px;
+  height: 28px;
+  border-bottom: 4px solid;
+
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+
+  /* position: absolute; */
+  left: 52%;
+  padding: 0.5%;
+  border-radius: 0%;
+}
+.clearCA {
+  width: 80px;
+  height: 28px;
+  border-bottom: 4px solid;
+
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+
+  /*  position: absolute;*/
+  /* position: absolute; */
+  top: 51.5%;
+  left: 45%;
+  padding: 0.5%;
+  border-radius: 0%;
+}
+
+h {
+  font-size: 15px;
+  color: rgb(164, 182, 9);
+  text-shadow: 0 0 40px #ecf62e;
+}
